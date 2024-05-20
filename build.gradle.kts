@@ -1,4 +1,4 @@
-val funcName = "putfunname"
+val funcName = "allmusicaddon"
 val group = "cn.cyanbukkit.${funcName}"
 val version = "0.1"
 val mainPlugin = "SiModuleGame"
@@ -24,10 +24,10 @@ repositories {
 }
 
 dependencies {
-    compileOnly("org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT")
+    compileOnly("org.spigotmc:spigot-api:1.12.2-R0.1-SNAPSHOT")
     compileOnly("com.comphenix.protocol:ProtocolLib:4.8.0")
     compileOnly(fileTree("libs") { include("*.jar") })
-
+    compileOnly(fileTree("E:\\我的世界互动\\2.动画互游主\\服务端\\plugins\\SiModuleGame-Bukkit-24.5.1.jar"))
 }
 
 kotlin {

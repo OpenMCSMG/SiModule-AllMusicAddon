@@ -1,0 +1,10 @@
+EnableDefaultProcessing: true
+DefaultPlayer: CyanBukkit
+# 每人需要多少价格
+Need: 2
+# 在查询时
+Show:
+  Scoreboard: true
+  Title: true
+CostTable: # 对应得礼物ID
+  462: 2
